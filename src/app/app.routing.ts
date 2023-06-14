@@ -16,10 +16,6 @@ export const AppRoutes: Routes = [
         loadChildren: () => import('./basic/basic.module').then(m => m.BasicModule)
     },
     {
-        path: 'resource',
-        loadChildren: () => import('./resource/resource.module').then(m => m.ResourceModule)
-    },
-    {
         path: 'department',
         loadChildren: () => import('./department/department.module').then(m => m.DepartmentModule)
     },

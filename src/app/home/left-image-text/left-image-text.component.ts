@@ -17,9 +17,9 @@ export class LeftImageTextComponent implements OnInit {
   public subtitle: string = '';
   public asubtitle: string = 'Shri Alpesh N. Patel PG Institute of Science & Research';
   public tsubtitle: string = 'Charotar Education Society';
-  public dimg: string = 'assets/images/cems/about/11.jpg';
-  himg: string = 'assets/images/cems/about/44.jpg';
-  timg: string = 'assets/images/cems/about/33.jpg';
+  public dimg: string = 'assets/images/about/11.jpg';
+  himg: string = 'assets/images/about/44.jpg';
+  timg: string = 'assets/images/about/33.jpg';
   daimg: string = '';
   constructor(
     private router: Router,

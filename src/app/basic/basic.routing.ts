@@ -8,7 +8,7 @@ export const BasicRoutes: Routes = [{
     path: '',
     children: [
     {
-        path: 'infra',
+        path: 'infrastructure',
         component: InfrastructureComponent
     },
     {
