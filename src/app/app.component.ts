@@ -8,10 +8,10 @@ import { HomeService } from './core/services/home.services';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private router: Router;
+  // private router: Router;
   staticURL: any = 'www.vjhs.ac.in';
   constructor(
-    router: Router,
+    public router: Router,
     private homeService: HomeService
   ) {
     this.router = router;
@@ -32,5 +32,5 @@ export class AppComponent {
       localStorage.setItem('InstituteURL', res[0].url);
     })
   }
-  title = 'Shree V.J.Patel Higher Secondary School (Sci)';
+  // title = 'Shree V.J.Patel Higher Secondary School (Sci)';
 }
