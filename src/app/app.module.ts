@@ -14,7 +14,6 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { ToastrModule } from 'ngx-toastr';
 import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
-import { MainComponent } from './home/main/main.component';
 @NgModule({
   declarations: [
     AppComponent,
